@@ -33,8 +33,9 @@ facts that matter for your task. Format: `[type date] description (file)`.
 ## file-bridge
 - [decision 2026-11-17] File Bridge PRs merge on green tests with no review; no AI bot ever gets approval rights (facts/file-bridge/auto-approve-file-bridge-prs.md)
 - [decision 2026-11-16] The remote file manager app is named NOBAD File Bridge (`apps/file-bridge/`), a plain name non-technical users understand (facts/file-bridge/name-nobad-file-bridge.md)
-- [open 2026-11-17] NOBAD File Bridge by @harshRaj1601: own repo since 2026-11-17; security fixes still owed before its first release (facts/file-bridge/history-and-owed-fixes.md)
+- [open 2026-11-17] NOBAD File Bridge by @harshRaj1601: own repo since 2026-11-17, released 0.5.x (Windows installer, Linux .deb) (facts/file-bridge/history-and-owed-fixes.md)
 
 ## website
+- [decision 2026-11-17] Website links: product-specific links go to that product's repo; everything general goes to the nobad-studio org (facts/website/links-org-vs-product.md)
 - [decision 2026-11-17] One NOBAD orange on every product page (no per-product accent colours) (facts/website/one-nobad-orange.md)
 - [decision 2026-11-16] Website style: premium cybersecurity look, shared product.css, full product names, no author or tech-stack talk (facts/website/website-style.md)
