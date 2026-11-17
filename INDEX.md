@@ -25,7 +25,10 @@ facts that matter for your task. Format: `[type date] description (file)`.
 - [release 2026-11-16] What each NOBAD VPN release shipped (newest first) (facts/vpn/vpn-release-history.md)
 
 ## find
-- [open 2026-11-17] NOBAD Find: private offline file search (pywebview); out of scope: activity timeline, raw NTFS/MFT; not on site yet (facts/find/nobad-find-scope.md)
+- [decision 2026-11-17] NOBAD Find photo meaning uses SigLIP base (Apache-2.0, ~211 MB optional download), not OpenAI CLIP (facts/find/find-photo-model-siglip.md)
+- [decision 2026-11-17] NOBAD Find releases only from CI: find-v tag -> find-release.yml, attested, never the repo's 'latest' (facts/find/find-releases-from-ci.md)
+- [decision 2026-11-17] NOBAD Find: private offline file search, released (0.6.0, 2026-11-17), on the website; activity timeline out of scope (facts/find/nobad-find-scope.md)
+- [open 2026-11-17] Maintainer asked for an optional admin 'turbo' index for NOBAD Find; not built, app never runs elevated (facts/find/find-admin-indexing-requested.md)
 
 ## file-bridge
 - [decision 2026-11-17] File Bridge PRs merge on green tests with no review; no AI bot ever gets approval rights (facts/file-bridge/auto-approve-file-bridge-prs.md)
