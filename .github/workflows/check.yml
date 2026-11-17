@@ -1,0 +1,27 @@
+name: Memory check
+
+# Validates every fact (front matter, size, scope, no secret-looking text) and that INDEX.md is current.
+# Reads the repository only; runs nothing from a pull request except this repo's own checker at that commit,
+# with a read-only token.
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: memory-check
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: "3.12"
+      - name: Check facts and index
+        run: python -I tools/mem.py check
