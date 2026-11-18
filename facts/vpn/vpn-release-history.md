@@ -5,6 +5,7 @@ type: release
 date: 2026-11-16
 ---
 
+- 1.6.2 (2026-11-18) Quick view showed a raw {"ok": false} page when the install was removed under a running app: UI cached at start-up; WebView2 navigation guard so drops cannot navigate windows; HTML fallback for page navigations.
 - 1.6.1 Window resizing fixed (SC_SIZE), hidden warning cards fixed, Investigate a site layout; site rebranded as the NOBAD studio with a File Bridge page.
 - 1.6.0 Get free servers in 2 minutes (empty Servers tab + background Downloads pick-up); uninstall stops every NOBAD process; upgrades stop the old copy first.
 - 1.5.1 Security: import folder outside the locked data folder, quarantine by ownership, .NET profiler variables stripped, links only on this session's desktop; site without inline scripts; strict attestation check documented.
