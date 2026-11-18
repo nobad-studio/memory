@@ -25,6 +25,7 @@ facts that matter for your task. Format: `[type date] description (file)`.
 - [release 2026-11-16] What each NOBAD VPN release shipped (newest first) (facts/vpn/vpn-release-history.md)
 
 ## find
+- [decision 2026-11-18] NOBAD Find plan: RAM/CPU/GPU first, then a named-pipe engine service and a Flutter UI, then features; resume from apps/find/ROADMAP.md (facts/find/find-roadmap-resources-then-flutter.md)
 - [decision 2026-11-17] NOBAD Find photo meaning uses SigLIP base (Apache-2.0, ~211 MB optional download), not OpenAI CLIP (facts/find/find-photo-model-siglip.md)
 - [decision 2026-11-17] NOBAD Find releases only from CI: find-v tag -> find-release.yml, attested, never the repo's 'latest' (facts/find/find-releases-from-ci.md)
 - [decision 2026-11-17] NOBAD Find: private offline file search, released (latest 0.7.0, 2026-11-18), on the website; activity timeline out of scope (facts/find/nobad-find-scope.md)
