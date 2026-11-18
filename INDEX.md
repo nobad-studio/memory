@@ -27,7 +27,7 @@ facts that matter for your task. Format: `[type date] description (file)`.
 ## find
 - [decision 2026-11-17] NOBAD Find photo meaning uses SigLIP base (Apache-2.0, ~211 MB optional download), not OpenAI CLIP (facts/find/find-photo-model-siglip.md)
 - [decision 2026-11-17] NOBAD Find releases only from CI: find-v tag -> find-release.yml, attested, never the repo's 'latest' (facts/find/find-releases-from-ci.md)
-- [decision 2026-11-17] NOBAD Find: private offline file search, released (0.6.0, 2026-11-17), on the website; activity timeline out of scope (facts/find/nobad-find-scope.md)
+- [decision 2026-11-17] NOBAD Find: private offline file search, released (latest 0.6.1, 2026-11-18), on the website; activity timeline out of scope (facts/find/nobad-find-scope.md)
 - [open 2026-11-17] Maintainer asked for an optional admin 'turbo' index for NOBAD Find; not built, app never runs elevated (facts/find/find-admin-indexing-requested.md)
 
 ## file-bridge
