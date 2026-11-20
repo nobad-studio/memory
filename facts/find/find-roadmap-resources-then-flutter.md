@@ -1,13 +1,13 @@
 ---
 name: find-roadmap-resources-then-flutter
-description: NOBAD Find plan: RAM/CPU/GPU first, then a named-pipe engine service and a Flutter UI, then features; resume from apps/find/ROADMAP.md
+description: NOBAD Find plan: RAM/CPU/GPU first, then a named-pipe engine service and a Flutter UI, then features; resume from ROADMAP.md in nobad-studio/find
 type: decision
 date: 2026-11-18
 ---
 
 The maintainer's main aim for NOBAD Find is to optimize RAM, CPU and GPU first, then add in-app features, and
 that it must not "bug out". The full plan, architecture, feature inventory and a status table live in
-`apps/find/ROADMAP.md` in nobad-studio/Nobad-VPN.
+`ROADMAP.md in nobad-studio/find` in nobad-studio/Nobad-VPN.
 
 Order: measure (tools/measure.py, docs/measurements.md) → engine diet (ONNX arenas, worker imports, EcoQoS,
 job memory limit) → engine as a service over a private named pipe (rpc.py, contract tests) → Flutter UI

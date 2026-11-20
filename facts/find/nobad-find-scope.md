@@ -1,6 +1,6 @@
 ---
 name: nobad-find-scope
-description: NOBAD Find: private offline file search, released (latest 0.7.0, 2026-11-18), on the website; activity timeline out of scope
+description: NOBAD Find: private offline file search, released (latest 0.8.5, 2026-11-20), own repo nobad-studio/find, on the website; activity timeline out of scope
 type: decision
 date: 2026-11-17
 ---
