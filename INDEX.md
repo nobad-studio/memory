@@ -9,7 +9,7 @@ facts that matter for your task. Format: `[type date] description (file)`.
 - [decision 2026-11-17] PR automation: AI reviews and comments; approvals only by fixed rules, never by AI judgment (facts/org/pr-bot-rules-approve.md)
 - [decision 2026-11-17] How every contributor's AI assistant shares memory: this repo, loaded by index, written by reviewed PR (facts/org/shared-memory-system.md)
 - [decision 2026-11-16] Brand: NOBAD is a studio with several products; motto 'Software with a point of view.' used verbatim everywhere (facts/org/brand-studio-and-motto.md)
-- [open 2026-11-17] Where each NOBAD product lives after the 2026-11-17 move to the nobad-studio organization, and what's left (facts/org/move-to-nobad-studio.md)
+- [open 2026-11-20] Where each NOBAD product lives (one repository per product since 2026-11-20), and what's left (facts/org/move-to-nobad-studio.md)
 
 ## vpn
 - [decision 2026-11-16] Evil Twin network check ships inside NOBAD VPN first; it may become its own product later (facts/vpn/evil-twin-inside-vpn.md)
@@ -25,10 +25,10 @@ facts that matter for your task. Format: `[type date] description (file)`.
 - [release 2026-11-16] What each NOBAD VPN release shipped (newest first) (facts/vpn/vpn-release-history.md)
 
 ## find
-- [decision 2026-11-18] NOBAD Find plan: RAM/CPU/GPU first, then a named-pipe engine service and a Flutter UI, then features; resume from apps/find/ROADMAP.md (facts/find/find-roadmap-resources-then-flutter.md)
+- [decision 2026-11-20] NOBAD Find releases only from CI in nobad-studio/find (find-v tag -> find-release.yml, attested); 0.8.5 and older stay in Nobad-VPN (facts/find/find-releases-from-ci.md)
+- [decision 2026-11-18] NOBAD Find plan: RAM/CPU/GPU first, then a named-pipe engine service and a Flutter UI, then features; resume from ROADMAP.md in nobad-studio/find (facts/find/find-roadmap-resources-then-flutter.md)
 - [decision 2026-11-17] NOBAD Find photo meaning uses SigLIP base (Apache-2.0, ~211 MB optional download), not OpenAI CLIP (facts/find/find-photo-model-siglip.md)
-- [decision 2026-11-17] NOBAD Find releases only from CI: find-v tag -> find-release.yml, attested, never the repo's 'latest' (facts/find/find-releases-from-ci.md)
-- [decision 2026-11-17] NOBAD Find: private offline file search, released (latest 0.7.0, 2026-11-18), on the website; activity timeline out of scope (facts/find/nobad-find-scope.md)
+- [decision 2026-11-17] NOBAD Find: private offline file search, released (latest 0.8.5, 2026-11-20), own repo nobad-studio/find, on the website; activity timeline out of scope (facts/find/nobad-find-scope.md)
 - [open 2026-11-17] Maintainer asked for an optional admin 'turbo' index for NOBAD Find; not built, app never runs elevated (facts/find/find-admin-indexing-requested.md)
 
 ## file-bridge
